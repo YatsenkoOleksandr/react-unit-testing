@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInput Snapshot should match snapshot and have label with text 1`] = `
+<div>
+  <label
+    htmlFor="search"
+  >
+    Test Label
+  </label>
+  <input
+    id="search"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`SearchInput Snapshot should match snapshot and have search input with value 1`] = `
+<div>
+  <label
+    htmlFor="search"
+  >
+    
+  </label>
+  <input
+    id="search"
+    onChange={[Function]}
+    type="text"
+    value="Test Input"
+  />
+</div>
+`;
