@@ -107,7 +107,6 @@ describe('Search', () => {
       render(<Search />);
       userEvent.type(screen.getByRole('textbox'), userInput);
 
-
       // Arrange
       expect(screen.getByText(expectedText)).toBeInTheDocument();
     });
